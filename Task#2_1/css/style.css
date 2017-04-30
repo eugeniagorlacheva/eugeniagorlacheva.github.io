@@ -13,7 +13,7 @@ body {
   width: auto;
   border: 1px solid transparent;
 }
-
+/*header*/
 .header {
   font-family: Tahoma;
   font-size: 12px;
@@ -50,28 +50,40 @@ body {
   display: inline-block;
 }
 
-.nepal
-.india
-.tibet
-.bhutan
-.sriLanka
-.maldives img {
+.nepal,
+.india,
+.tibet,
+.bhutan,
+.sriLanka,
+.maldives,img {
   display: block;
-  width: 261px;
-  height: 200px;
-  border: 10px solid #e6e6e6 ;
+  width: 400px;
+  height: 280px;
+  border: 3px solid #e6e6e6 ;
+  margin: 0;
+  padding: 0;
 }
 
+.nepal,
+.india,
+.bhutan,
+.sriLanka, img {
+  margin-right: 10px;
+}
 figcaption {
   text-align: center;
   color: #e6e6e6;
   text-decoration: none;
 }
 
-figcaption:hover {
+figcaption, a:hover {
   text-decoration: none;
 }
 
-a :hover {
-  text-decoration: none;
+/*footer*/
+.footer p {
+  display: block;
+  margin-top: 180px;
+  text-align: center;
+  color: #e6e6e6;
 }
