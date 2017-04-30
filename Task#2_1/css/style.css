@@ -51,14 +51,6 @@ body {
   display: inline-block;
   border: 1px solid transparent;
 }
-.firstLine {
-  margin-bottom: 70px;
-  border: 1px solid transparent;
-}
-
-.SecondLine {
-  border: 1px solid transparent;
-}
 
 .nepal,
 .india,
@@ -69,9 +61,11 @@ body {
   display: block;
   width: 380px;
   height: 280px;
-  border: 2px solid #e6e6e6 ;
-  margin: 0;
-  padding: 0;
+  border: 3px solid #959595;
+  border-radius: 1%;
+  -webkit-box-shadow: inset 0px 0px 11px 14px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 11px 14px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 11px 14px rgba(0,0,0,1);
 }
 
 .nepal,
@@ -80,6 +74,11 @@ body {
 .sriLanka, img {
   margin-right: 20px;
 }
+
+figure {
+  margin: 0px;
+}
+
 figcaption {
   text-align: center;
   color: #e6e6e6;
