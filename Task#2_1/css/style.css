@@ -1,0 +1,77 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  margin: 30px;
+  width: auto;
+  border: 1px solid transparent;
+}
+
+.header {
+  font-family: Tahoma;
+  font-size: 12px;
+  color: #e6e6e6;
+  height: 200px;
+}
+
+.left {
+  display: inline-block;
+  margin-right: 65%;
+}
+
+.logo {
+  background: url("../img/palm.png") 100% 100% no-repeat,
+              url("../img/logo.png") 50% 70% no-repeat;
+  height: 150px;
+  width: 270px;
+  border: 1px solid transparent;
+}
+
+ .logo p {
+  text-align: center;
+  padding-top: 120px;
+ }
+
+.right {
+  display: inline-block;
+}
+
+/*container*/
+
+
+.container div {
+  display: inline-block;
+}
+
+.nepal
+.india
+.tibet
+.bhutan
+.sriLanka
+.maldives img {
+  display: block;
+  width: 261px;
+  height: 200px;
+  border: 10px solid #e6e6e6 ;
+}
+
+figcaption {
+  text-align: center;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+figcaption:hover {
+  text-decoration: none;
+}
+
+a :hover {
+  text-decoration: none;
+}
