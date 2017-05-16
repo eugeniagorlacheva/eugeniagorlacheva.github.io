@@ -99,17 +99,23 @@ a img {
   background-image: -o-linear-gradient(bottom, #303030, #363636);
   background-image: -ms-linear-gradient(bottom, #303030, #363636);
   background-image: linear-gradient(to top, #303030, #363636);
-  border-bottom: 1px solid black;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
 }
 
 .center_panel li {
   float: left;
   margin: 0;
   list-style: none;
-  padding: 8px 30px;
+  margin: 0 30px;
 }
 
 .center_panel a {
+  display: inline-block;
+  vertical-align: center;
+  height: 35px;
+  line-height: 35px;
   font-family: Tahoma;
   font-size: 14px;
   color: #fff;
@@ -119,23 +125,26 @@ a img {
   display: none;
   position: absolute;
   background-color: #333333;
-  margin-top: 9px;
+  margin-top: -1px;
   border-top: 1px solid black;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
   width: 130px;
-  padding: 0;
+
+  margin-right: 10px;
 }
 
 .submenu li {
   display: block;
-  padding: 3px 7px 3px 10px;
-  margin: 0px;
+  text-align: center;
 }
 
 .submenu a {
   display: block;
+  height: 20px;
+  line-height: 20px;
   color: white;
   text-decoration: none;
+text-align: center;
 }
 
 .submenu a:hover {
@@ -161,7 +170,7 @@ a img {
   width: 20%;
   height:452px;
   padding: 0;
-  margin: 0;
+  margin: 1px 0 0;
   font-size: 14px;
   color: #333333;
   text-align: center;
