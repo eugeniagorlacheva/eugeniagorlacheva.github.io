@@ -16,7 +16,6 @@ body {
 nav {
   background: url("../img/ul.png");
   width: 100vw;
-  height: 37px;
   background-repeat: repeat-x;
   margin: 0;
   position: absolute;
@@ -25,38 +24,31 @@ nav {
 ul {
   float: right;
   margin: 0;
-    padding: 0;
-    border: 1px solid transparent;
+  padding: 0 20px;
 }
 
 li {
   float: left;
   list-style: none;
-  height: 37px;
 }
 
 li a{
   display: inline-block;
-  height: 37px;
-  line-height: 37px;
+  padding: 11px 15px;
   font-family: Tahoma;
   font-size: 14px;
   color: #60b5ed;
 }
 
-li:hover {
+ul li.onhover:hover {
   background: #59b0dc;
   text-align: center;
-  height: 37px;
-  line-height: 37px;
   margin: 0;
-  padding: 0;
 }
 
-li a:hover {
+li.onhover a:hover {
   display: block;
-  height: 37px;
-  line-height: 37px;
+  padding: 12px 15px;
   text-decoration: none;
   color: white;
 }
@@ -74,9 +66,13 @@ li a:hover {
 }
 
 .sign-in2 span, .sign-in1 span {
+  display: block;
   color: white;
-  height: 37px;
-  line-height: 37px;
+  padding: 11px 15px;
+}
+
+.sign-in2 span{
+  float: right;
 }
 
 .sign-in1 li {
@@ -88,17 +84,21 @@ li a:hover {
 	background-image: linear-gradient(to top, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
 }
 
+.sign-in2 img {
+  vertical-align: middle;
+  margin: 5px 10px;
+}
+
 .centerBlock {
   display: block;
   position: absolute;
   left: 50%;
-  margin-left: -300px;
   top: 50%;
-  margin-top: -150px;
-  margin-bottom: 150px;
+  transform: translateX(-50%) translateY(0%);
   background-color: rgba(31, 31, 31, 0.5);
-  width: 600px;
-  height: 600px;
+  width: 33%;
+  height: 90%;
+  margin-bottom: 200px;
 }
 
 .text p {
