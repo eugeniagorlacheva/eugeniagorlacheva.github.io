@@ -8,14 +8,13 @@ body {
 
 .wrapper {
   height: 100vh;
-  width: 100vw;
   margin: 0 auto;
   position: relative;
 }
 
 nav {
   background: url("../img/ul.png");
-  width: 100vw;
+  width: 100%;
   background-repeat: repeat-x;
   margin: 0;
   position: absolute;
@@ -94,10 +93,10 @@ li.onhover a:hover {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(-50%);
   background-color: rgba(31, 31, 31, 0.5);
   width: 33%;
-  height: 90%;
+  height: 560px;
   margin-bottom: 200px;
 }
 
@@ -108,6 +107,11 @@ li.onhover a:hover {
   padding-bottom: 12px;
   font-size: 14pt;
   border-bottom: 1px solid white;
+}
+
+input {
+  display: block;
+	width: 50%;
 }
 
 .fb {
