@@ -13,18 +13,25 @@ body {
   position: relative;
 }
 
-ul {
+nav {
+  background: url("../img/ul.png");
   width: 100vw;
   height: 37px;
-  background: url("../img/ul.png");
   background-repeat: repeat-x;
   margin: 0;
+  position: absolute;
+}
+
+ul {
+  float: right;
+  margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
 }
 
 li {
-  float: right;
+  display: inline-block;
   list-style: none;
-  width: 100px;
 }
 
 li a{
@@ -34,25 +41,48 @@ li a{
   font-family: Tahoma;
   font-size: 14px;
   color: #60b5ed;
-  width: 100px;
+  border: 1px solid transparent;
 }
 
 li:hover {
   background: #59b0dc;
   text-align: center;
-  width: 100px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
 }
 
 li a:hover {
+  display: block;
+  height: 37px;
+  line-height: 37px;
   text-decoration: none;
   color: white;
-  width: 100px;
-  width: 100px;
+  border: 1px solid transparent;
+
+  margin: 0;
+  padding: 0;
 }
 
-.sign-in2 li {
-  border-left: 1px solid
+.sign-in2 li, .sign-in1 li {
+  border-left: 1px solid #60b5ed;
 }
+
+.sign-in2 span, .sign-in1 span {
+  color: white;
+  height: 37px;
+  line-height: 37px;
+}
+
+.sign-in1 li {
+  border: solid 1px #e68e16;
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+	background-image: -o-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+	background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+	background-image: linear-gradient(to top, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+}
+
 .centerBlock {
   display: block;
   position: absolute;

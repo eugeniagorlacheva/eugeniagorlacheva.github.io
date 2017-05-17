@@ -10,41 +10,33 @@
 <body>
   <div class="wrapper">
     <!--Header-->
-    <ul class="menu">
-      <li class="sign-in"><a href="#">Ola! Entrar ou Cadasre-se</a></li>
-      <li class="sign-in"><a href="#"><img src="img/pennant.png" alt="pennant">Minhas Ofertas</a>
-      </li>
-      <li><a href="#">Ajuda</a></li>
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Forum</a></li>
-      <li><a href="#">Vender</a></li>
-      <li><a href="#">Meu YouBike</a></li>
-    </ul>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Meu YouBike</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li class="sign-in2"><img src="img/pennant.png" alt="pennant"><span>Minhas Ofertas</span>
+        </li>
+        <li class="sign-in1"><span>Ola! Entrar ou Cadasre-se</span></li>
+      </ul>
+    </nav>
     <div class="centerBlock">
       <div class="text">
         <p>Cadastre-se</p>
       </div>
-      <div class="fb">
-        <form action="#">
-          <button type="button" name="button"><img src="img/fb.png" alt="fb">
-    </button>
-        </form>
-        <form action="#" method="post">
-          <input type="text" name="firstName" value="First Name">
-        </form>
-        <form action="#" method="post">
-          <input type="text" name="lastName" value="Last Name">
-        </form>
-        <form action="#" method="post">
-          <input type="text" name="email" value="Email Address">
-        </form>
-        <form action="#">
-          <input type="password" name="password" value="Choose Password">
-        </form>
-        <form action="#">
-          <input type="password" name="password" value="Password Confirm">
-        </form>
-      </div>
+      <form action="#" method="post">
+        <button type="button" name="button"><img src="img/fb.png" alt="fb">
+        </button>
+        <input type="text" name="firstName" value="First Name">
+        <input type="text" name="lastName" value="Last Name">
+        <input type="text" name="email" value="Email Address">
+        <input type="password" name="password" value="Choose Password">
+        <input type="password" name="password" value="Password Confirm">
+        <label><input type="checkbox"/>Send ma Youbike updates and tips</label>
+        <input type="button" value=" Create my Account ">
+      </form>
     </div>
   </div>
 </body>
