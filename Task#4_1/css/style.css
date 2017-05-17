@@ -30,26 +30,27 @@ ul {
 }
 
 li {
-  display: inline-block;
+  float: left;
   list-style: none;
+  height: 37px;
 }
 
 li a{
-  display: block;
+  display: inline-block;
   height: 37px;
   line-height: 37px;
   font-family: Tahoma;
   font-size: 14px;
   color: #60b5ed;
-  border: 1px solid transparent;
 }
 
 li:hover {
   background: #59b0dc;
   text-align: center;
+  height: 37px;
+  line-height: 37px;
   margin: 0;
   padding: 0;
-  border: 1px solid transparent;
 }
 
 li a:hover {
@@ -58,14 +59,18 @@ li a:hover {
   line-height: 37px;
   text-decoration: none;
   color: white;
-  border: 1px solid transparent;
-
-  margin: 0;
-  padding: 0;
 }
 
-.sign-in2 li, .sign-in1 li {
+.sign-in2 {
   border-left: 1px solid #60b5ed;
+}
+
+.sign-in1 {
+  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: -o-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: linear-gradient(to top, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
 }
 
 .sign-in2 span, .sign-in1 span {
