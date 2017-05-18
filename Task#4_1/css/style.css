@@ -115,7 +115,6 @@ label {
   height: 35px;
   border-radius: 6px;
   border: solid 1px #364C8C;
-  margin-bottom: 50px;
   background: url("../img/fb.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -128,12 +127,26 @@ label {
   background: #666;
   -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1)}
+
+  .border-line p{
   display: inline-block;
   font-family: Tahoma;
   font-size: 14px;
   color: #999;
 }
+
+.border-line p:before,
+.border-line p:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid white;
+  top: 0;
+  width: 130px;
+}
+
 input {
   margin: 10px auto;
   padding: 0 10px;
@@ -157,6 +170,19 @@ input[type=text]:focus, input[type=password]:focus {
   color: white;
   background: rgba(0, 0, 0, 0.1);
   outline: 0;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+  -webkit-box-shadow: 0 0 9px rgba(47,123,197,.77), 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+  	-moz-box-shadow: 0 0 9px rgba(47,123,197,.77), 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+  	box-shadow: 0 0 9px rgba(47,123,197,.77), 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+  	background-image: -webkit-linear-gradient(bottom, #1D4D7C, #1B5287);
+  	background-image: -moz-linear-gradient(bottom, #1D4D7C, #1B5287);
+  	background-image: -o-linear-gradient(bottom, #1D4D7C, #1B5287);
+  	background-image: -ms-linear-gradient(bottom, #1D4D7C, #1B5287);
+  	background-image: linear-gradient(to top, #1D4D7C, #1B5287);
+    width: 284px;
+  	height: 41px;
 }
 
 .submit {
