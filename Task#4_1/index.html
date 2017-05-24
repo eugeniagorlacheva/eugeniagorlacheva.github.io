@@ -8,8 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrapper">
-    <!--Header-->
     <nav>
       <ul class="menu">
         <li class="onhover"><a href="#">Meu YouBike</a></li>
@@ -27,25 +25,18 @@
         <p>Cadastre-se</p>
       </div>
       <form action="#" method="post">
-        <input type="button" class="fb" name="button">
-        <div class="border-line">
-          <div class="line"></div>
-          <p>ou</p>
-          <div class="line"></div>
-        </div>
-        <input type="text" class="placeholder" name="firstName" value="" placeholder="First Name">
-        <input type="text" class="placeholder" name="lastName" value="" placeholder="Last Name">
-        <input type="text" class="placeholder" name="email" value="" placeholder="Email Address">
-        <input type="password" class="placeholder" name="password" value="" placeholder="Choose Password">
-        <input type="password" class="placeholder" name="password" value="" placeholder="Password Confirm">
+        <input type="button" class="fb" name="button" onclick="javascript:window.location='URL1'"/>
+          <p class="border-line"><span>ou</span></p>
+        <input type="text" class="placeholder" name="firstName" required placeholder="First Name">
+        <input type="text" class="placeholder" name="lastName" required placeholder="Last Name">
+        <input type="text" class="placeholder" name="email" required placeholder="Email Address">
+        <input type="password" class="placeholder" name="password" required placeholder="Choose Password">
+        <input type="password" class="placeholder" name="password" required placeholder="Password Confirm">
         <label><input type="checkbox"/>Send me Youbike updates and tips</label>
         <input type="submit" class="submit" value=" Create my Account ">
       </form>
       <p>By clicking the button above, you agree to the Terms of Service</p>
       <p>View our Privacy Policy</p>
     </div>
-      <img src="img/background.png" alt="">
-  </div>
 </body>
-
 </html>

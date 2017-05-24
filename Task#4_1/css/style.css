@@ -1,21 +1,18 @@
 body {
-  margin: 0 auto;
-  padding: 0;
-}
-
-.wrapper {
-  height: 100vh;
-  margin: 0 auto;
-  position: absolute;
-  margin: 0 auto;
+    margin: 0px;
+    background: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 nav {
   background: url("../img/ul.png");
-  width: 100%;
   background-repeat: repeat-x;
   margin: 0;
   position: absolute;
+  width: 100%;
 }
 
 ul {
@@ -82,10 +79,37 @@ li.onhover a:hover {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%) translateY(-20%);
+  transform: translateX(-50%) translateY(-50%);
   background-color: rgba(0, 0, 0, 0.63);
   width: 560px;
-  height: 613px;
+  font-family: Tahoma;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+}
+
+@media (min-width: 1367px)  {
+  .centerBlock {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 560px;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1366px) and (orientation:landscape) {
+   .centerBlock {
+     left: 50%;
+     top: 80%;
+     transform: translateX(-50%) translateY(-50%);
+  }
 }
 
 .text p {
@@ -101,12 +125,6 @@ label {
   font-family: Tahoma;
 	font-size: 14px;
 	color: #ccc;
-}
-.centerBlock {
-  font-family: Tahoma;
-	font-size: 14px;
-	color: #ccc;
-  text-align: center;
 }
 
 .fb {
@@ -129,23 +147,32 @@ label {
   -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 1)}
 
-  .border-line p{
-  display: inline-block;
-  font-family: Tahoma;
-  font-size: 14px;
-  color: #999;
-}
-
-.border-line p:before,
-.border-line p:after {
-  content: "";
-  position: absolute;
-  height: 0px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid white;
-  top: 0;
-  width: 130px;
-}
+  .border-line {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .border-line span {
+    display: inline-block;
+    position: relative;
+  }
+  .border-line span:before,
+  .border-line span:after {
+    content: "";
+    position: absolute;
+    height: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    top: 0;
+    width: 130px;
+  }
+  .border-line span:before {
+    right: 100%;
+    margin: 5px 5px 0;
+  }
+  .border-line span:after {
+    left: 100%;
+    margin: 5px 5px 0;
+  }
 
 input {
   margin: 10px auto;
