@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url(../fonts/leaguegothic-condensedregular-webfont.woff2) format('woff2'),
+         url(../fonts/leaguegothic-condensedregular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.main_menu {
+    display: inline-block;
+    margin-top: 50px;
+    vertical-align: top;
+    padding: 0;
+}
+.main_menu__home, .main_menu__about, .main_menu__blog, .main_menu__products, .main_menu__lorem_ipsum, .main_menu__dolor-sit-amet {
+    display: inline-block;
+}
+
+.main_menu__home a, .main_menu__about a, .main_menu__blog a, .main_menu__products a, .main_menu__lorem_ipsum a, .main_menu__dolor-sit-amet a {
+	font-family: 'league_gothicCnRg';
+    font-size: 32px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 2px 2px rgba(0,0,0,.4);
+    padding: 25px;
+}
+
+
+.header {
+    background: url(../img/bg_960.jpg);
+    background-size: auto;
+   background-color: #fff;
+   background-position: top center;
+   background-repeat: no-repeat;
+   height: 850px;
+}
+
+.wrapheader, .wrapsliders {
+margin: 0 auto;
+    width: 960px;
+}
+.sliders-bg {
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.43);  
+}
+
+.slider-article {
+    display: inline-block;
+}
+
+.sliders__header {
+    margin: 0;
+    font-size: 60px;
+	color: #fefefe;
+    font-family: 'league_gothicCnRg';
+	text-shadow: 0 2px 2px rgba(0,0,0,.3);
+    }
+
+   .sliders__header--2 {
+       font-family: 'league_gothicCnRg';
+       margin: 0;
+	font-size: 32px;
+	color: #edbfff;
+}
+
+.sliders__text {
+    width: 480px;
+    margin: 0;
+    font-family: OpenSans;
+	font-size: 18px;
+	color: #fff;
+}
+
+.iphone4 {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    background: url(../img/iphone4_960.png);
+    height: 370px;
+    width: 260px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+.btn--1 {
+    height: 76px;
+    width: 76px;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(0%, -50%);
+   border: 0;
+   background: url(../img/play_960.png);
+   border-radius: 50%;
+}
+
+.btn--1:active {
+   border-radius: 50px; 
+}

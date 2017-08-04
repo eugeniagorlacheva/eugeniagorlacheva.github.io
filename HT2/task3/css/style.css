@@ -1,0 +1,17 @@
+.one {
+  background-color: #FF0000;
+  height: 40px;
+  width: 50px;
+}
+
+.two {
+  background-color: #FFA300;
+  height: 40px;
+  width: 100px;
+}
+
+.three {
+  background-color: #4600FF;
+  height: 40px;
+  width: 150px;
+}

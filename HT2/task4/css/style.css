@@ -1,0 +1,9 @@
+p {
+  display: block;
+  background-color: #FF733A;
+  text-align: center;
+  line-height: 70px;
+  width: 250px;
+  height: 70px;
+  font-size: 42px;
+}
