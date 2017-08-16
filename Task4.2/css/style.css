@@ -2,15 +2,16 @@
   width: 600px;
 	height: 600px;
   margin: 0 auto;
-  outline: 1px solid #000;
+  border: 1px solid #000;
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px 200px;
 }
 
-.block-h1--brown, .block3-h1--brown, .block2-h2--brown, .block-h3--brown, .block3-h3--brown {
+.wrapper div:nth-child(odd) {
   background-color: #791C16;
 }
+
 
 img {
   height: 200px;

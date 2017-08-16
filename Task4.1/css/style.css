@@ -1,14 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+}
 .wrapper {
   margin: 10px auto;
   width: 380px;
-  height: 530px;
   border: 2px solid black;
 }
 
 header {
   margin-top: 10px;
   text-align: center;
-  font-family: Tahoma;
   font-size: 22px;
   color: #242424;
   font-weight: 400;
@@ -24,8 +27,12 @@ img {
   height: 280px;
 }
 
+button {
+botder: 0;
+outline: 0;
+}
+
 .installment {
-  font-family: Tahoma;
 	font-size: 22px;
 	color: #fff;
   width: 190px;
@@ -38,7 +45,6 @@ img {
 
 .price {
   margin: 20px;
-  font-family: Tahoma;
 	font-size: 31px;
 	color: #000;
   text-align: center;
@@ -50,11 +56,11 @@ img {
   width: 229px;
   height: 46px;
   background-color: #E93F33;
-  font-family: Tahoma;
   font-size: 28px;
   color: #fff;
   text-shadow: -1px 1px #000;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(121, 28, 22, 1);
   -moz-box-shadow: 0px 4px 5px 0px rgba(121, 28, 22, 1);
   box-shadow: 0px 4px 5px 0px rgba(121, 28, 22, 1);
+  margin-bottom: 40px;
 }
